@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Andika&family=Catamaran:wght@400;500&family=Lato:wght@300;400&family=Montserrat:wght@200;400&family=Open+Sans:wght@300;400&family=PT+Sans&family=Poppins:wght@300;400&family=Raleway:ital,wght@0,300;0,400;0,600;1,300&family=Tangerine:wght@400;700&family=Vollkorn&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-family: "Andika", sans-serif;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Tangerine", cursive;
+  font-family: "Vollkorn", serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background: #7dd3fc;
+}
+
+.wrapper {
+  width: 370px;
+  margin: 130px auto 0;
+}
+
+.select-btn,
+.options li {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+.select-btn {
+  height: 65px;
+  background: #fff;
+  padding: 0 20px;
+  font-size: 22px;
+
+  align-items: center;
+  border-radius: 7px;
+  justify-content: space-around;
+}
+
+.select-btn i {
+  font-size: 31px;
+}
+
+.content {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 7px;
+  background: #fff;
+}
+
+.content .search {
+  position: relative;
+}
+
+.search i {
+  left: 15px;
+  line-height: 53px;
+  position: absolute;
+  color: #999;
+  font-size: 20px;
+}
+
+.search input {
+  height: 53px;
+  width: 100%;
+  font-size: 17px;
+  padding: 0 15px 0 43px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+}
+
+.content .options {
+  margin-top: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.options::-webkit-scrollbar {
+  width: 7px;
+}
+
+.options::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+
+.options::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 25px;
+}
+
+.options li {
+  height: 50px;
+  padding: 0 13px;
+  font-size: 21px;
+  border-radius: 5px;
+}
+
+.options li:hover {
+  background: #f2f2f2;
+}
